@@ -1,0 +1,190 @@
+#ecom-blog-categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ecom-blog-seee-all-btn{
+    background: none;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 12px 24px;
+  
+  }
+  .ecom-blog-seee-all-btn a{
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+  }
+  .ecom-blog-seee-all-btn a:hover{
+    color: #219653;
+  }
+  #ecom-blog-posts {
+    position: relative;
+    min-height: 200px;
+    margin-top: 100px;
+  }
+  
+  #ecom-blog-posts .loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  #ecom-blog-posts .loading:before {
+    content: url("https://cpsstage1.wpenginepowered.com/wp-content/plugins/cps-gallery/assets/loader.svg");
+    width: 55px;
+  }
+  
+  .slick-track {
+    margin: 0 !important;
+  }
+  
+  #ecom-blog-categories ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  div#ecom-blog-categories ul li {
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
+  #ecom-blog-categories ul li a {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #ecom-blog-categories ul li a.active {
+    background: #219653;
+    border: 1px solid #219653;
+  }
+  
+  #ecom-blog-categories ul li a:hover {
+    background: #219653;
+    border: 1px solid #219653;
+  }
+  
+  #ecom-blog-posts .slick-slide {
+    margin-right: 24px !important;
+    background: #FFFFFF;
+    height: 500px;
+    border: 1px solid #6E6E6E0A;
+    border-radius: 10px;
+    padding: 16px;
+    position: relative;
+  }
+  #ecom-blog-posts .slick-slide.slick-active:last-of-type {
+    margin-right: 0 !important;
+  }
+  .ecom-blog-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .ecom-blog-categories-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+  }
+  .ecom-blog-categories-name .category-item{
+    color: #797979;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #C9C9C9;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+  .ecom-blog-thumbnail img {
+    height: 245px;
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .ecom-blog-post-titel{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 15px;
+  }
+  
+  
+  .ecom-blog-meta{
+   
+  }
+  .ecom-blog-date{
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    color: #219653;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .ecom-blog-author{
+    position: absolute;
+    bottom: 15px;
+    right:16px;
+    color: #797979;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  
+  .ecom-blog-slider .slick-prev, .ecom-blog-slider .slick-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 9;
+      background-color: #fff;
+      border-radius: 50%;
+      width: 41px;
+      height: 40px;
+      color: #2d2d2d;
+      cursor: pointer;
+      font-size: 20px;
+    border:1px solid rgba(0,0,0,0.5);
+  transition: all 0.3s ease-in-out;
+  }
+  
+  .ecom-blog-slider .slick-prev {
+      left: 0px; 
+  }
+  
+  .ecom-blog-slider .slick-next {
+      right: 21px; 
+  }
+  .ecom-blog-slider .slick-prev:hover, 
+  .ecom-blog-slider .slick-next:hover {
+      background-color: #219653;
+      color: #fff; 
+      border-color: #219653;
+  }
+  

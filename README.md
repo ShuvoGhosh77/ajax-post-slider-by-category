@@ -19,7 +19,7 @@ A custom WordPress code that allows users to load posts by category using AJAX a
 [ajax_category_post_slider]
 
 ## 🔧 Slick Enqueue
-1. Add function.php
+# Add function.php
 function enqueue_child_theme_assets(){
     wp_enqueue_script("jquery");
     wp_enqueue_script("slick-slider-js", "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js", ["jquery"], null, true);
